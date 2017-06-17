@@ -4,11 +4,17 @@
     padding:0;
 }
 body{
+    padding:0;
     overflow: scroll;
     background: #fff;
     min-width: 400px;
 }
-
+.left{
+    float:left;
+}
+.right{
+    float:right;
+}
 .top{
     color: #888;
     font-size: 14px;
@@ -150,3 +156,21 @@ body{
 .grid span.status-ok {
     color: #090;
 }
+.btn-container{
+    background: #ddd;
+    background: -moz-linear-gradient(top,#e6e6e6,#d6d6d6);
+    background: -webkit-linear-gradient(top,#e6e6e6,#d6d6d6);
+    background: linear-gradient(top,#e6e6e6,#d6d6d6);
+    border-top: 1px solid #ccc;
+    height: 30px;
+    padding: 5px 5px 6px 160px;
+    width: 100%;
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    z-index: 900;
+}
+input[type="radio"], input[type="checkbox"] {
+    margin: 0px 5px 0px 0px;
+    padding: 0px;
+    vertical-align: middle;}
